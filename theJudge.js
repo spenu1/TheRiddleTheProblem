@@ -1,17 +1,1 @@
-let answer = "moonlight"
-let randFac = 213;
-let inputField = document.getElementById("theAnswer");
-
-function solveTheProblem(){
-    let inputAnswer = inputField.value;
-    if(inputField == answer){
-        
-    }
-    else{
-        showIncorrect(inputAnswer);
-    }
-}
-
-function showIncorrect(inputAnswer){
-
-}
+let answer="moonlight",randFac=213;var truthField,answerField;let a4="67OQoaiLu4",a1="https://y",a3;function solveTheProblem(){answerField=document.getElementById("theAnswer"),truthField=document.getElementById("theTruth");var e=answerField.value;e==answer?(truthField.innerHTML="<h2>https://youtu.be/OTWgbDb7j90</h2>",truthField.style.visibility="visible"):(a3=".be/x",showIncorrect(e))}function showIncorrect(e){truthField.append;var t=a1+"outu"+a3+a4,e=e.split(" ");1==e[0].length&&6==e[1].length&&4==e[2].length&&4==e[3].length&&(truthField.innerHTML="<h2>"+t+"</h2>",truthField.style.visibility="visible")}
