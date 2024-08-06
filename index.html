@@ -9,9 +9,10 @@
     <script src="theJudge.js"></script>
 </head>
 <body>
+    
     <!-- Make this clickable for the freaks in the audience. -->
-    <h1 onclick="console.log('')">The Question</h1>
-
+    <h1 id="question" onclick="console.log('The answer must be stored somewhere...otherwise how would the website know?'); document.getElementById('question').style.cursor = 'default'">The Question</h1>
+    <h3>Try F12</h3>
     <div class="inputDiv">
         <input id="theAnswer" type="text">
         <button id="theInput" type="button" onclick="solveTheProblem()">Submit The Answer?</button>
@@ -20,12 +21,19 @@
     <!---------------->
     <!-- Though called the KEY, the actual truth is in the TUNING.... -->
     <div class="theTruth" id="theTruth">
-        <h2>https://youtu.be/OTWgbDb7j90</h2>
+        
     </div>
 
     <div class="theLie">
 
     </div>
+
+    <script>
+
+        function cursorChange(){
+            document.getElementById("question").style.cursor = none;
+        }
+    </script>
 
 </body>
 </html>
