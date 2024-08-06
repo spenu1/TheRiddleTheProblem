@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-size: 250px;
+    text-align: center;
+}
+
+#theAnswer{
+    height:40px;
+    font-size:30pt;
+}
+
+#theInput{
+    margin-left: 20px;
+    height:50px;
+    font-size:30pt;
+}
+
+.inputDiv{
+    position: fixed;
+    top:70%;
+    left: 30%;
+}
