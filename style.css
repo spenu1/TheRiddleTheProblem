@@ -6,6 +6,7 @@ h1{
     color: white;
     font-size: 250px;
     text-align: center;
+    cursor: pointer;
 }
 h2{
     text-align: center;
